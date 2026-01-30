@@ -1,5 +1,7 @@
 # OpenClaw 企业微信 (WeCom) AI 机器人插件
 
+[简体中文](./README.md) | [English](./README_EN.md)
+
 `openclaw-plugin-wecom` 是一个专为 [OpenClaw](https://github.com/sunnoy/openclaw-plugin-wecom) 框架开发的企业微信（WeCom）集成插件。它允许你将强大的 AI 能力无缝接入企业微信，并支持多项高级功能。
 
 ## ✨ 核心特性
