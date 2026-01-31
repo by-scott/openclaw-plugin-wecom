@@ -182,18 +182,6 @@ To prevent regular users from executing sensitive Gateway management commands vi
 
 > ⚠️ **Security Note**: Do not add `/gateway`, `/plugins`, or other management commands to the whitelist to prevent regular users from gaining Gateway instance admin privileges.
 
-## 🏗️ Building Custom Images
-
-To build a custom OpenClaw image:
-
-```bash
-# Build image (uses China npm mirror)
-./local.sh v2026.1.29
-
-# Build and push image
-./local.sh v2026.1.29 push
-```
-
 ## 🤝 Contributing
 
 We welcome contributions! Please submit Issues or Pull Requests for bugs or feature suggestions.

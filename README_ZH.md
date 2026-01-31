@@ -182,18 +182,6 @@ OpenClaw 会通过解析 `SessionKey` 来决定本次消息由哪个 Agent 处�
 
 > ⚠️ **安全提示**：不要将 `/gateway`、`/plugins` 等管理指令添加到白名单，避免普通用户获得 Gateway 实例的管理权限。
 
-## 🏗️ 本地构建镜像
-
-如果需要自定义构建 OpenClaw 镜像：
-
-```bash
-# 构建镜像（使用国内 npm 源）
-./local.sh v2026.1.29
-
-# 构建并推送镜像
-./local.sh v2026.1.29 push
-```
-
 ## 🤝 贡献规范
 
 我们非常欢迎开发者参与贡献！如果你发现了 Bug 或有更好的功能建议，请提交 Issue 或 Pull Request。
