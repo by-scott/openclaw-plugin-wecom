@@ -17,7 +17,7 @@
 
 ### Option 1: Docker Deployment (Recommended)
 
-This repository provides a complete Docker deployment solution with automated plugin installation.
+This repository provides a complete Docker deployment solution that **deploys OpenClaw + WeCom plugin in one step**, with automated installation and configuration.
 
 ```bash
 # 1. Clone the repository
