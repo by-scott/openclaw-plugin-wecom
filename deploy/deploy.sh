@@ -66,7 +66,10 @@ echo ""
 
 # 5. 检查是否需要初始部署（插件未安装）
 PLUGIN_INSTALLED=false
-if [ -d "${OPENCLAW_DATA_DIR}/extensions/openclaw-plugin-wecom" ]; then
+# 兼容两种安装目录：
+# - /extensions/wecom（以 openclaw.plugin.json 的 id 为目录名）
+# - /extensions/openclaw-plugin-wecom（以 npm 包名为目录名）
+if [ -d "${OPENCLAW_DATA_DIR}/extensions/wecom" ] || [ -d "${OPENCLAW_DATA_DIR}/extensions/openclaw-plugin-wecom" ]; then
     PLUGIN_INSTALLED=true
 fi
 
