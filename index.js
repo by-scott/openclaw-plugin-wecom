@@ -864,7 +864,7 @@ async function deliverWecomReply({ payload, account, responseUrl, senderId, stre
 
 const plugin = {
   // Plugin id should match `openclaw.plugin.json` id (and config.plugins.entries key).
-  id: "openclaw-plugin-wecom",
+  id: "wecom",
   name: "Enterprise WeChat",
   description: "Enterprise WeChat AI Bot channel plugin for OpenClaw",
   configSchema: { type: "object", additionalProperties: false, properties: {} },

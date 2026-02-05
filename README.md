@@ -42,7 +42,7 @@ Add to your OpenClaw configuration file (`~/.openclaw/openclaw.json`):
 {
   "plugins": {
     "entries": {
-      "openclaw-plugin-wecom": {
+      "wecom": {
         "enabled": true
       }
     }
@@ -65,7 +65,7 @@ Add to your OpenClaw configuration file (`~/.openclaw/openclaw.json`):
 
 | Option | Type | Required | Description |
 |--------|------|----------|-------------|
-| `plugins.entries.openclaw-plugin-wecom.enabled` | boolean | Yes | Enable the plugin |
+| `plugins.entries.wecom.enabled` | boolean | Yes | Enable the plugin |
 | `channels.wecom.token` | string | Yes | WeCom bot Token |
 | `channels.wecom.encodingAesKey` | string | Yes | WeCom message encryption key (43 chars) |
 | `channels.wecom.commands.allowlist` | array | No | Command allowlist |
@@ -174,7 +174,7 @@ Prevent regular users from executing sensitive Gateway management commands throu
 {
   "plugins": {
     "entries": {
-      "openclaw-plugin-wecom": { "enabled": true }  // ✅ Correct
+      "wecom": { "enabled": true }  // ✅ Correct
     }
   }
 }

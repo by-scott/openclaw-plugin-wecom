@@ -42,7 +42,7 @@ npm install openclaw-plugin-wecom
 {
   "plugins": {
     "entries": {
-      "openclaw-plugin-wecom": {
+      "wecom": {
         "enabled": true
       }
     }
@@ -65,7 +65,7 @@ npm install openclaw-plugin-wecom
 
 | 配置项 | 类型 | 必填 | 说明 |
 |--------|------|------|------|
-| `plugins.entries.openclaw-plugin-wecom.enabled` | boolean | 是 | 启用插件 |
+| `plugins.entries.wecom.enabled` | boolean | 是 | 启用插件 |
 | `channels.wecom.token` | string | 是 | 企业微信机器人 Token |
 | `channels.wecom.encodingAesKey` | string | 是 | 企业微信消息加密密钥（43 位） |
 | `channels.wecom.commands.allowlist` | array | 否 | 允许的指令白名单 |
@@ -174,7 +174,7 @@ npm install openclaw-plugin-wecom
 {
   "plugins": {
     "entries": {
-      "openclaw-plugin-wecom": { "enabled": true }  // ✅ 正确
+      "wecom": { "enabled": true }  // ✅ 正确
     }
   }
 }
