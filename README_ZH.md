@@ -22,17 +22,15 @@
 
 ## 🚀 安装
 
-### 方式一：使用 OpenClaw CLI（推荐）
-
 ```bash
 openclaw plugins install openclaw-plugin-wecom
 ```
 
-### 方式二：使用 npm
-
-```bash
-npm install openclaw-plugin-wecom
-```
+此命令会自动：
+- 从 npm 下载插件
+- 安装到 `~/.openclaw/extensions/` 目录
+- 更新 OpenClaw 配置
+- 注册插件
 
 ## ⚙️ 配置
 
